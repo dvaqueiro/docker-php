@@ -1,4 +1,4 @@
-FROM php-fpm-dev
+FROM dvaqueiro/php:dev 
 
 RUN apt-get update \
     && apt-get -y install unzip zlib1g-dev \
