@@ -1,4 +1,4 @@
-FROM php-dev
+FROM php-fpm-dev
 
 RUN apt-get update \
     && apt-get -y install unzip zlib1g-dev \
